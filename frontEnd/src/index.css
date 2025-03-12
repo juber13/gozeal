@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css */
+/* index.css */
+
+/* Import the Poppins font first */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); */
+
+/* Now, you can add your styles */
+body {
+    font-family: 'Poppins', sans-serif; /* Set Poppins as the default font */
+    margin: 0; /* Optional: Reset margin */
+    padding: 0; /* Optional: Reset padding */
+    box-sizing: border-box; /* Optional: Apply box-sizing */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif; /* Use Poppins for headings as well */
+}
+
+p {
+    font-family: 'Poppins', sans-serif; /* Use Poppins for paragraphs */
+}
+
+/* Add any other styles you need */
