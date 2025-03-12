@@ -13,7 +13,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(
   cors({
-    origin: "https://gozeal-pi.vercel.app/",
+    origin: "https://gozeal-pi.vercel.app",
     methods: ["GET", "POST"],
     credentials: true,
   })
