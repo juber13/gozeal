@@ -10,7 +10,7 @@ const Certificate = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:5050/api/certificates");
+        const response = await axios.get("https://gozeal.onrender.com/api/certificates");
         setData(response.data);
         setLoading(false);
       } catch (error) {

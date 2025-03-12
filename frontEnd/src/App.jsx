@@ -35,12 +35,15 @@ function App() {
           formData.append('url', selectedFile);
         }
 
-        const res = await axios.post("http://localhost:5050/api/certificate", formData, {
-          headers: {
-            Accept: "application/json",
-            'Content-Type': 'multipart/form-data'
-          },
-        });
+        const res = await axios.post("https://gozeal.onrender.com/api/certificate",
+          formData,
+          {
+            headers: {
+              Accept: "application/json",
+              "Content-Type": "multipart/form-data",
+            },
+          }
+        );
 
           const result = res.data;
           console.log(result);
